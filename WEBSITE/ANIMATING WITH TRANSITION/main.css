@@ -1,0 +1,19 @@
+body{
+	text-align: center;
+}
+#mommy{
+	
+	display: block;
+	width:500px;
+	padding: 15px;
+	margin:150px auto;
+	border: 7px solid red;
+	text-align: center;
+	background:pink;
+	-webkit-transition:-webkit-transform 2s;/*-webkit-transition is used when ever you want to animate, 
+	it takes in the property you want to animate as value, and then how long you want it to transition*/
+}
+#mommy:hover{
+	-webkit-transform:rotate(180deg);
+}
+ 

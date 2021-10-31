@@ -1,0 +1,19 @@
+body{
+	text-align: center;
+
+}
+#mommy{
+	background: yellow;
+	display: block;
+	width:500px;
+	border: 7px solid blue;
+	padding: 20px;
+	margin: 50px auto;
+	text-align: center;
+	outline: 7px solid red; /*this is the line outside the border*/
+	-webkit-transform:translate(100px,100px) rotate(45deg) scale(.5);/*ths is use to transform the shape of anything, it takes "scale(x,y)",rotate(45deg),skew(30deg),translate()*/
+}
+#son{
+	font: bold 14px tahoma;
+	
+}

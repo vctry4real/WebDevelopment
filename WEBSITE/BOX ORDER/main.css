@@ -1,0 +1,46 @@
+#mommy{
+	border: 2px solid blue;
+	display: -webkit-box;
+	width:700px;
+	-webkit-box-orient:horizontal;
+	/*-webkit-box-pack:start ; this can also take ..."end = to move to the right", "start= to move to the left", "justify = spreads evenly across the width*/
+	height: 300px;
+	-webkit-box-align:center; /*this is used to align the contents in the box, it takes other values like "start","base line","strectch (only works when there is no fixed height)" */
+}
+#kid1{
+	border: 2px solid red;
+	background: yellow;
+	padding: 20px;
+	margin: 10px;
+	-webkit-box-ordinal-group:3; /*this is used to give a custom positon*/	
+	-webkit-box-flex:1;
+	height: 100px;
+} 
+#kid2{
+	border: 2px solid red;
+	background: green;
+	padding: 20px;
+	margin: 10px;
+	-webkit-box-ordinal-group:4;
+	-webkit-box-flex:1;/*this will use the remaining space after the other boxes has been calculated*/
+	height: 100px;
+}
+#kid3{
+	border: 2px solid red;
+	background: red;
+	padding: 20px;
+	margin: 10px;
+	-webkit-box-ordinal-group:1;
+	-webkit-box-flex:1;/*you can have a box flex value higher than 1, the higher the value the more space it consumes, 
+	and share the rest space evenly,with boxes with flex vlaue 1*/
+	height: 100px;
+}
+#kid4{
+	border: 2px solid red;
+	background: purple;
+	padding: 20px;
+	margin: 10px;
+	-webkit-box-ordinal-group:2;
+	-webkit-box-flex:1;
+	height: 100px;
+}
