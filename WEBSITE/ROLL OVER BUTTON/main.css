@@ -1,0 +1,23 @@
+body{
+	text-align: center;
+}
+#mommy{
+	display: block;
+	margin: 150px auto;
+	padding: 20px;
+	
+	-webkit-border-radius:10px;
+	width:120px;
+	height: 75px;
+	background: blue;
+	opacity: 0.6;
+	-webkit-transition:-webkit-transform 2s, opacity 2s, width 2s, height 2s ;
+}
+
+#mommy:hover{
+	-webkit-transform: rotate(360deg);
+	opacity: 1;
+	width: 450px;
+	height: 150px;
+	background: pink;
+}
